@@ -36,8 +36,8 @@ import sys
 
 sys.setrecursionlimit(3000)
 
-WEIGHTS_PATH = 'https://github.com/adamcasson/resnet152/releases/download/v0.1/resnet152_weights_tf.h5'
-WEIGHTS_PATH_NO_TOP = 'https://github.com/adamcasson/resnet152/releases/download/v0.1/resnet152_weights_tf_notop.h5'
+WEIGHTS_PATH = 'https://github.com/GKalliatakis/Keras-Application-Zoo/releases/download/0.1/resnet152_weights_tf_dim_ordering_tf_kernels.h5'
+WEIGHTS_PATH_NO_TOP = 'https://github.com/GKalliatakis/Keras-Application-Zoo/releases/download/0.1/resnet152_weights_tf_dim_ordering_tf_kernels_notop.h5'
 
 
 def identity_block(input_tensor, kernel_size, filters, stage, block):
