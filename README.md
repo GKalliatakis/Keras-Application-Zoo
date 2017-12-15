@@ -5,7 +5,7 @@
 
 ## You have just found Keras Application Zoo
 
-Keras Application Zoo is a public clearinghouse for [`keras.applications`](https://keras.io/applications/)-compatible models to promote progress and reproduce research.
+Keras Application Zoo is a public clearinghouse for [`keras.applications`](https://keras.io/applications/)-compatible image classification models to promote progress and reproduce research.
 
 Lots of researchers and engineers have made their deep learning models public in various frameworks for different tasks with all kinds of architectures and data. These models are learned and applied for problems ranging from simple regression, to large-scale visual classification. 
 
@@ -26,13 +26,22 @@ Read the official documentation at [Keras.io](https://keras.io).
 
 ------------------
 
-## Usage: 
+## Usage
 All architectures are compatible with both TensorFlow and Theano, and upon instantiation the models will be built according to the image dimension ordering set in your Keras configuration file at ~/.keras/keras.json. For instance, if you have set image_dim_ordering=tf, then any model loaded from this repository will get built according to the TensorFlow dimension ordering convention, "Width-Height-Depth".
 
 Pre-trained weights can be automatically loaded upon instantiation (weights='places' argument in model constructor for all scene-centric models). Weights are automatically downloaded.
 
 ------------------
+## Available models
 
+### Models for image classification with weights trained on [ImageNet](http://www.image-net.org/):
+- ResNet152 
+
+### Models for image classification with weights trained on [Places](http://places2.csail.mit.edu/):
+- VGG16-places365
+- VGG16-hybrid1365
+
+------------------
 ## Examples
 
 ### Classify images
