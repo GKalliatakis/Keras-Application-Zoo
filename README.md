@@ -70,7 +70,7 @@ x = preprocess_input(x)
 features = model.predict(x)
 ```
 ------------------
-### Licensing 
+## Licensing 
 - All code in this repository is under the MIT license as specified by the LICENSE file.
 - The VGG16-places365 and VGG16-hybrid1365 weights are ported from the ones [released by CSAILVision](https://github.com/CSAILVision/places365) under the [MIT license](https://github.com/CSAILVision/places365/blob/master/LICENSE).
 - The ResNet-152 weights are ported from ones [released by adamcasson](https://github.com/adamcasson/resnet152).
@@ -87,9 +87,9 @@ Additionally, don't forget to cite this repo if you use these models:
     howpublished={\url{https://github.com/GKalliatakis/Keras-Application-Zoo}},
     }
 
-### Other Models 
+## Other Models 
 This is going to be an evolving repository and I will keep updating it with Keras Applications-compatible models which are not included in the original [Keras Applications](https://keras.io/applications/), so make sure you have starred :star2: and forked this repository before moving on !
 
 ------------------
-### Questions and Comments
+## Questions and Comments
 If you have any suggestions or bugs to report you can pull a request or start a discussion.
