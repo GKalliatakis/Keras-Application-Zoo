@@ -42,27 +42,28 @@ Pre-trained weights can be automatically loaded upon instantiation (weights='pla
 - VGG16-hybrid1365
 
 ------------------
-## Examples
+## Examples 
 
-### Classify images
+### Classify ImageNet classes with ResNet152
 
 ```python
-from vgg16_places_365 import VGG16_Places365
+from resnet152 import ResNet152
 from keras.preprocessing import image
+from imagenet_utils import preprocess_input, decode_predictions
 
-model = VGG16_Places365(weights='places')
+model = ResNet152(weights='imagenet')
 
-img_path = 'restaurant.jpg'
+img_path = 'elephant.jpg'
 img = image.load_img(img_path, target_size=(224, 224))
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 x = preprocess_input(x)
 
 preds = model.predict(x)
-print('Predicted:', preds)
+print('Predicted:', decode_predictions(preds))
 ```
 
-### Extract features from images
+### Extract features from images with VGG16_Places365
 
 ```python
 from vgg16_places_365 import VGG16_Places365
