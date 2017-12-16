@@ -1,6 +1,6 @@
 # Keras | Application Zoo - DIY Deep Learning for Vision
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/GKalliatakis/Keras-Application-Zoo.svg)](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE) ![Application_Zoo K](https://img.shields.io/badge/Application_Zoo-K-ce0000.svg) 
 
 
 ## You have just found Keras Application Zoo
