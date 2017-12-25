@@ -16,11 +16,11 @@ To lower the friction of sharing these models, we introduce the Keras Applicatio
 
 - A **central GitHub repo** for sharing popular deep learning models with **Keras code & weights files**
 - Contains **ONLY additional** deep learning models which are **not yet available within `keras.applications` module itself or [Keras community contributions official extension repository](https://github.com/farizrahman4u/keras-contrib)**
-- Tools to upload/download model info to/from Github, and to download trained Keras Applications-like binaries
-- Models can be used for prediction, feature extraction, and fine-tuning just like the default canned architectures in `keras.applications`
+- Tools to upload/download model info to/from GitHub, and to download trained Keras Applications-like binaries
+- Models can be used for prediction, feature extraction, and fine-tuning just like the genuine canned `keras.applications` architectures 
 - **No separate models configuration files in a declarative format**. Models are described in Python code, which is compact, easier to debug, and allows for ease of extensibility
 
-**Benefit from networks that you could not practically train yourself by taking Keras to the Zoo !**
+**BENEFIT FROM NETWORKS THAT YOU COULD NOT PRACTICALLY TRAIN YOURSELF BY TAKING KERAS TO THE ZOO!**
 
 Read the official documentation at [Keras.io](https://keras.io).
 
@@ -35,11 +35,11 @@ Pre-trained weights can be automatically loaded upon instantiation (weights='pla
 ## Available models
 
 ### Models for image classification with weights trained on [ImageNet](http://www.image-net.org/):
-- ResNet152 
+- [ResNet152](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/resnet152.py) 
 
 ### Models for image classification with weights trained on [Places](http://places2.csail.mit.edu/):
-- VGG16-places365
-- VGG16-hybrid1365
+- [VGG16-places365](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/vgg16_places_365.py)
+- [VGG16-hybrid1365](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/vgg16_hybrid_places_1365.py)
 
 ------------------
 ## Examples 
@@ -68,6 +68,7 @@ print('Predicted:', decode_predictions(preds))
 ```python
 from vgg16_places_365 import VGG16_Places365
 from keras.preprocessing import image
+from keras.applications.imagenet_utils import preprocess_input
 
 model = VGG16_Places365(weights='places', include_top=False)
 
@@ -100,7 +101,7 @@ Additionally, don't forget to cite this repo if you use these models:
 ## Other Models 
 More models to come!
 
-This is going to be an evolving repository, so make sure you have starred :star2: and forked this repository before moving on !
+This is going to be an evolving repository, so make sure you have starred :star: and forked this repository before moving on !
 
 ------------------
 
@@ -114,11 +115,11 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
-### We Develop with Github
-We use github to host code, to track issues and feature requests, as well as accept pull requests.
+### :octocat: We Develop with GitHub
+We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
 
 When you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-### Report bugs using Github's issues
+### Report bugs using GitHub's issues
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/GKalliatakis/Keras-Application-Zoo/issues); it's that easy!
 
