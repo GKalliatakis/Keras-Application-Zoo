@@ -1,9 +1,11 @@
 # Keras | Application Zoo - DIY Deep Learning for Vision
 
-[![GitHub license](https://img.shields.io/github/license/GKalliatakis/Keras-Application-Zoo.svg)](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE) ![Application_Zoo K](https://img.shields.io/badge/Application_Zoo-K-ce0000.svg) 
+<p align="center"> <img src="https://i.imgur.com/aT94WEj.png" /> </p>
+
+[![GitHub license](https://img.shields.io/github/license/GKalliatakis/Keras-Application-Zoo.svg)](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE)
 
 
-## You have just found Keras Application Zoo
+## You have just found Keras Application Zoo.
 
 Keras Application Zoo is a public clearinghouse for [Keras Applications](https://keras.io/applications/)-like image classification models to promote progress and reproduce research.
 
@@ -115,7 +117,7 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
-### :octocat: We Develop with GitHub
+###  We Develop with GitHub :octocat: 
 We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
 
 When you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
