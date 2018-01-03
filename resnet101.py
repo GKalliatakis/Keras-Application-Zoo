@@ -285,7 +285,7 @@ def ResNet101(include_top=True, weights='imagenet',
                                       default_size=img_size,
                                       min_size=197,
                                       data_format=K.image_data_format(),
-                                      include_top=include_top)
+                                      require_flatten=include_top)
 
     if input_tensor is None:
         img_input = Input(shape=input_shape)
