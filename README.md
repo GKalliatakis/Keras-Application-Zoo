@@ -65,7 +65,7 @@ preds = model.predict(x)
 print('Predicted:', decode_predictions(preds))
 ```
 
-### Extract features from images with VGG16_Places365
+### Extract features from images with VGG16-places365
 
 ```python
 from vgg16_places_365 import VGG16_Places365
@@ -83,6 +83,19 @@ x = preprocess_input(x)
 features = model.predict(x)
 ```
 ------------------
+
+### Documentation for individual models
+
+|                                                       Model                                                       |  Size  | Top-1 Accuracy | Top-5 Accuracy |  Parameters |
+|:-----------------------------------------------------------------------------------------------------------------:|:------:|:--------------:|:--------------:|:-----------:|
+|            [ResNet152](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/resnet152.py)            | 232 MB |      77.6%     |      93.8%     |  60,495,656 |
+|      [VGG16-places365](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/vgg16_places_365.py)     | 518 MB |     55.24%     |     84.91%     | 135,755,949 |
+| [VGG16-hybrid1365](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/vgg16_hybrid_places_1365.py) | 534 MB |                |                | 139,852,949 |
+
+The top-1 and top-5 accuracy refers to the model's performance on the ImageNet or Places validation dataset
+
+------------------
+
 ## Licensing 
 - All code in this repository is under the MIT license as specified by the [LICENSE file](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE).
 - The VGG16-places365 and VGG16-hybrid1365 weights are ported from the ones [released by CSAILVision](https://github.com/CSAILVision/places365) under the [MIT license](https://github.com/CSAILVision/places365/blob/master/LICENSE).
