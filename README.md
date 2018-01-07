@@ -136,6 +136,11 @@ We love your input! We want to make contributing to this project as easy and tra
 ###  We Develop with GitHub :octocat: 
 We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
 
+1. Check for [open issues](https://github.com/GKalliatakis/Keras-Application-Zoo/issues) or open a fresh one to start a discussion around a feature idea or a bug.
+2. Fork [the repository](https://github.com/GKalliatakis/Keras-Application-Zoo) on GitHub to start making your changes (branch off of the master branch).
+3. Write a test that shows the bug was fixed or the feature works as expected.
+4. If you feel uncomfortable or uncertain about an issue or your changes, don't hesitate to contact us.
+
 When you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ### Report bugs using GitHub's issues
