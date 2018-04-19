@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/GKalliatakis/Keras-Application-Zoo.svg)](https://github.com/GKalliatakis/Keras-Application-Zoo/blob/master/LICENSE)
 
 
-## Introducing Keras Application Zoo: A Library for Reusable Machine Learning Modules in Keras.
+## Introducing Keras Application Zoo: A library for reusable deep learning models in Keras.
 
 Keras Application Zoo is a public clearinghouse to publish, discover, and reuse parts of machine learning modules in Keras. By a module, we mean a self-contained piece of a [Keras Applications](https://keras.io/applications/)-like model, along with its weights, that can be reused across other, similar tasks. By reusing a module, a developer can train a model using a smaller dataset, improve generalization, or simply speed up training. 
 
